@@ -39,7 +39,7 @@ memuse = "0.2.1"
 subtle = "2.2.3"
 
 # - Shielded protocols
-bls12_381 = "0.8"
+bls12_381 = { git = "https://github.com/achimcc/bls12_381", version = "0.8.0" }
 ff = "0.13"
 group = { version = "0.13", features = ["wnaf-memuse"] }
 jubjub = "0.10"
